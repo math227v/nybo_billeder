@@ -2,8 +2,8 @@ const sharp = require('sharp');
 const fs = require('fs');
 const path = require('path');
 
-const inputFolder = '.'; // Den aktuelle mappe, hvor scriptet og billederne ligger
-const outputFolder = 'output_images'; // Mappen til outputbilleder
+const inputFolder = './input_images'; // Den aktuelle mappe, hvor scriptet og billederne ligger
+const outputFolder = '.'; // Mappen til outputbilleder
 
 // Sørg for, at output-mappen eksisterer
 if (!fs.existsSync(outputFolder)){
